@@ -16,7 +16,7 @@ end
 
 def using_delete(array, string)
   array = ["Josh", "Steven", "Sophie", "Steven", "Amanda", "Steven"]
-  no_offense_steven= array.delete_at(1,3,5)
+  no_offense_steven= array.delete_at("Steven")
 end
 
 def using_delete_at (famous_robots, integer)
